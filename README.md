@@ -25,6 +25,24 @@
 2. 通过输入来读取文件内的信息；
 3. 通过输出流将新的信息写入到新文件中。
 # 主要代码
+Scanner
+```
+		 Scanner sc= new Scanner(System.in);
+		  System.out.println("姓名：");
+		     name=sc.next();
+		  System.out.println("编号：");
+		     num=sc.nextInt();
+		  System.out.println("性别：");
+		     sex=sc.next();
+		  System.out.println("年龄");
+		     age=sc.nextInt();
+		  System.out.println("班级：");
+		     grade=sc.next();
+
+		    
+		     System.out.println("姓名："+name+"编号："+num+"性别："+sex+"年龄："+age+"班级："+grade);
+		     
+```
 输入、输出流
 ```
 try (FileReader fInputStream = new FileReader("F:\\changhenge\\changhenge.txt");//输入流文件
@@ -127,3 +145,4 @@ G201
 1. 字符串String及其方法的使用
 2. 文件的读取/写入方法
 3. 异常处理结构
+4. Scanner的用法
